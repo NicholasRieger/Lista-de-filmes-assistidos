@@ -1,0 +1,49 @@
+:root{
+    --roxo: #631A86;
+    --fundo-principal: #F49390;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    /* fallback universal */
+    min-height: 100svh;
+    /* Safari/iOS: viewport “pequena” estável */
+    min-height: 100dvh;
+    /* modernos: viewport dinâmica (ajusta com barra) */
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body{
+    background-color: var(--fundo-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: var(--roxo);
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(243, 243, 243);
+}
+
+section h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div input, div button{
+    padding: 2px;
+}
+
+ul{
+    padding: 15px;
+    color: white;
+}
